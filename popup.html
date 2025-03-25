@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex-Blocker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h2>Ex-Blocker</h2>
+
+    <div>
+        <label for="original">Name to Block:</label>
+        <input type="text" id="original" placeholder="Enter name">
+    </div>
+
+    <div>
+        <label for="replacement">Funny Replacement:</label>
+        <input type="text" id="replacement" placeholder="Enter funny replacement">
+    </div>
+
+    <button id="add">Add</button><br><br>
+    <button id="reset">Reset Replacements</button>
+
+    <h3>Blocked Words:</h3>
+    <ul id="list"></ul>
+
+    <script src="popup.js"></script>
+</body>
+</html>
